@@ -171,6 +171,30 @@ class DealTopBar extends StatelessWidget {
 }
 
 /// 价格 + 标题 + 口碑 + 服务标签
+/// 大图 + 价格卡：价格卡向上叠压 12px，
+/// 这样卡片顶部的圆角处露出来的是大图，而不是页面底色（否则圆角会变成两个「灰方块」）。
+class BannerAndPrice extends StatelessWidget {
+  final DealDetail deal;
+
+  const BannerAndPrice({super.key, required this.deal});
+
+  @override
+  Widget build(BuildContext context) {
+    final double top = MediaQuery.of(context).padding.top;
+    const double overlap = 12;
+    return Stack(
+      clipBehavior: Clip.none,
+      children: <Widget>[
+        BannerSection(images: deal.bannerImages, label: deal.title),
+        Padding(
+          padding: EdgeInsets.only(top: S.bannerH + top - overlap),
+          child: PriceSection(deal: deal),
+        ),
+      ],
+    );
+  }
+}
+
 class PriceSection extends StatelessWidget {
   final DealDetail deal;
 
@@ -304,19 +328,23 @@ class PriceSection extends StatelessWidget {
                         top: 0,
                         bottom: 0,
                         child: Center(
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: <Widget>[
-                              const Text('＝', style: TextStyle(fontSize: 12, color: C.t1)),
-                              const SizedBox(width: 8),
-                              _equationItem('零售价', '¥${deal.retailPrice}', help: true),
-                              const SizedBox(width: 14),
-                              if (deal.promotionAmount.isNotEmpty) ...<Widget>[
-                                const Text('−', style: TextStyle(fontSize: 12, color: C.t1)),
+                          child: Transform.translate(
+                            // 参考里等式组整体比价格数字略高一点（组中线在价格墨迹中线之上 ~4）
+                            offset: const Offset(0, -6),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: <Widget>[
+                                const Text('＝', style: TextStyle(fontSize: 12, color: C.t1)),
+                                const SizedBox(width: 8),
+                                _equationItem('零售价', '¥${deal.retailPrice}', help: true),
                                 const SizedBox(width: 14),
-                                _equationItem('团购优惠', '¥${deal.promotionAmount}'),
+                                if (deal.promotionAmount.isNotEmpty) ...<Widget>[
+                                  const Text('−', style: TextStyle(fontSize: 12, color: C.t1)),
+                                  const SizedBox(width: 14),
+                                  _equationItem('团购优惠', '¥${deal.promotionAmount}'),
+                                ],
                               ],
-                            ],
+                            ),
                           ),
                         ),
                       ),

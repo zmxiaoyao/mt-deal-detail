@@ -68,8 +68,7 @@ class _DealDetailPageState extends State<DealDetailPage> {
               padding: EdgeInsets.only(bottom: 64 + bottomInset),
               physics: const ClampingScrollPhysics(),
               children: <Widget>[
-                BannerSection(images: deal.bannerImages, label: deal.title),
-                PriceSection(deal: deal),
+                BannerAndPrice(deal: deal),
                 const SizedBox(height: S.gap),
                 MenuSection(deal: deal),
                 const SizedBox(height: S.gap),
