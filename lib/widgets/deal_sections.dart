@@ -279,7 +279,7 @@ class PriceSection extends StatelessWidget {
                           '¥',
                           style: const TextStyle(
                             fontSize: 14.5,
-                            fontWeight: FontWeight.w700,
+                            fontWeight: FontWeight.w600,
                             color: C.primary,
                             height: 1.0,
                           ),
@@ -288,7 +288,7 @@ class PriceSection extends StatelessWidget {
                           deal.price,
                           style: const TextStyle(
                             fontSize: 28,
-                            fontWeight: FontWeight.w700,
+                            fontWeight: FontWeight.w600,
                             color: C.primary,
                             height: 1.0,
                           ),
@@ -308,7 +308,7 @@ class PriceSection extends StatelessWidget {
                                   deal.discountTag,
                                   style: const TextStyle(
                                     fontSize: 12,
-                                    fontWeight: FontWeight.w600,
+                                    fontWeight: FontWeight.w500,
                                     color: C.primary,
                                     height: 1.1,
                                   ),
@@ -361,7 +361,7 @@ class PriceSection extends StatelessWidget {
             deal.title,
             style: const TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.w600,
+              fontWeight: FontWeight.w500,
               color: C.t1,
               height: 1.34,
             ),
@@ -419,7 +419,7 @@ class MenuSection extends StatelessWidget {
         children: <Widget>[
           Text(
             deal.menuTitle,
-            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: C.t1),
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: C.t1),
           ),
           for (final MenuGroup g in deal.menu) ...<Widget>[
             if (g.title.isNotEmpty) ...<Widget>[
@@ -511,7 +511,7 @@ class TermsSectionView extends StatelessWidget {
         children: <Widget>[
           Text(
             deal.termTitle,
-            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: C.t1),
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: C.t1),
           ),
           for (int ti = 0; ti < deal.terms.length; ti++) ...<Widget>[
             if (ti == 0)
@@ -604,7 +604,7 @@ class PoiSection extends StatelessWidget {
             children: <Widget>[
               const Text(
                 '适用商户',
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: C.t1),
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: C.t1),
               ),
               const Spacer(),
               if (poi.summary.isNotEmpty)
@@ -746,7 +746,7 @@ class RecommendSection extends StatelessWidget {
             children: <Widget>[
               Text(
                 deal.recommendTitle,
-                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: C.t1),
+                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: C.t1),
               ),
               const Spacer(),
               if (deal.recommendTotal.isNotEmpty)
