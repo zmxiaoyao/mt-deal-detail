@@ -22,6 +22,7 @@ android/app/debug/
 # 产物
 *.apk
 *.aab
+dist/
 
 # 本机开发辅助脚本与临时浏览器配置（不参与构建）
 _dev/
