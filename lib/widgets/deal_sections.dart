@@ -232,9 +232,9 @@ class PriceSection extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         color: C.card,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(5)),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(12)),
       ),
-      padding: const EdgeInsets.fromLTRB(12, 12, 12, 13),
+      padding: const EdgeInsets.fromLTRB(12, 17, 12, 13),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -244,7 +244,7 @@ class PriceSection extends StatelessWidget {
           LayoutBuilder(
             builder: (BuildContext context, BoxConstraints c) {
               return SizedBox(
-                height: 40,
+                height: 36,
                 child: Stack(
                   children: <Widget>[
                     Row(
@@ -254,7 +254,7 @@ class PriceSection extends StatelessWidget {
                         Text(
                           '¥',
                           style: const TextStyle(
-                            fontSize: 13,
+                            fontSize: 14.5,
                             fontWeight: FontWeight.w700,
                             color: C.primary,
                             height: 1.0,
@@ -263,7 +263,7 @@ class PriceSection extends StatelessWidget {
                         Text(
                           deal.price,
                           style: const TextStyle(
-                            fontSize: 26,
+                            fontSize: 28,
                             fontWeight: FontWeight.w700,
                             color: C.primary,
                             height: 1.0,
@@ -325,10 +325,10 @@ class PriceSection extends StatelessWidget {
               );
             },
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 3),
           // 参考截图里价格行与标题之间是一条灰色虚线（小圆点等距排列）
           const SizedBox(height: 3, width: double.infinity, child: _DottedLine()),
-          const SizedBox(height: 9),
+          const SizedBox(height: 10),
           Text(
             deal.title,
             style: const TextStyle(
