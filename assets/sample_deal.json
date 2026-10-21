@@ -1,0 +1,146 @@
+{
+  "schema": "deal-detail/v1",
+  "_readme": "换数据只改这个文件（或改 DEAL_JSON_URL 指向任意同结构 JSON），页面版式一个字都不动。字段含义见 README.md 的『数据契约』。",
+  "deal": {
+    "id": "1640463767",
+    "title": "【金秋丰收】鲜汤鱼粉+鱼丸 2 个",
+    "price": "8.9",
+    "retailPrice": "10.9",
+    "promotionAmount": "2",
+    "discountTag": "8.2折",
+
+    "stats": {
+      "positiveRate": "96%好评",
+      "reviewCount": "352条评价",
+      "repeatBuyers": "回头客740+",
+      "soldCount": "半年售 1000+"
+    },
+
+    "serviceTags": ["周一至周日可用", "包间不可用", "随时退", "过期自动退"],
+
+    "bannerImages": [
+      "assets/img/banner_local.jpg"
+    ],
+
+    "menuTitle": "团购详情",
+    "menu": [
+      {
+        "title": "主食",
+        "items": [
+          { "name": "鲜汤无刺芒鱼粉", "spec": "1 碗", "price": "8.9" }
+        ]
+      },
+      {
+        "title": "小吃",
+        "items": [
+          { "name": "鱼丸2个", "spec": "1 份", "price": "2" }
+        ]
+      }
+    ],
+
+    "termTitle": "购买须知",
+    "terms": [
+      {
+        "title": "有效期",
+        "icon": "check",
+        "lines": ["购买之后30天有效"]
+      },
+      {
+        "title": "使用时间",
+        "icon": "time",
+        "lines": ["营业时间内可用"]
+      },
+      {
+        "title": "使用规则",
+        "icon": "rule",
+        "bullet": true,
+        "lines": [
+          "不可使用包间",
+          "本单发票由商家提供，详情请咨询商家",
+          "堂食餐前外带均可",
+          "团购用户可以享受店内其他所有优惠",
+          "如部分菜品因时令或售罄等其它不可抗因素无法提供，请联系商家协商处理，感谢您的理解",
+          "无需预约，消费高峰期可能需要等位"
+        ]
+      },
+      {
+        "title": "价格和销量说明",
+        "icon": "price",
+        "lines": ["详情请点击查看"],
+        "actionText": "详情请点击查看",
+        "actionUrl": "https://i.meituan.com/awp/hfe/block/index.html"
+      }
+    ],
+
+    "poiTitle": "适用商户",
+    "poi": {
+      "name": "巧二娘米粉便利店(广园店)",
+      "logo": "assets/img/logo_local.jpg",
+      "rating": "4.3",
+      "avgPrice": "11",
+      "distance": "4.5km",
+      "hours": "全天营业",
+      "summary": "3家门店通用",
+      "phone": "020-00000000",
+      "contactText": "联系商家"
+    },
+
+    "recommend": {
+      "title": "本店团购",
+      "total": "9个",
+      "items": [
+        {
+          "id": "9001",
+          "title": "【金秋丰收】土家酸汤鱼粉+腐竹套餐",
+          "image": "assets/img/t1.jpg",
+          "price": "9.9",
+          "retailPrice": "22",
+          "discount": "4.5折",
+          "sales": "半年销量 1000+"
+        },
+        {
+          "id": "9002",
+          "title": "【金秋丰收】鱼丸汤",
+          "image": "assets/img/t2.jpg",
+          "price": "1.99",
+          "retailPrice": "5",
+          "discount": "4折",
+          "sales": "半年销量 500+"
+        },
+        {
+          "id": "9003",
+          "title": "【双11钜惠】老友鱼粉+鱼丸(份)",
+          "image": "assets/img/t3.jpg",
+          "price": "11.11",
+          "retailPrice": "16.5",
+          "discount": "6.8折",
+          "sales": "半年销量 300+"
+        },
+        {
+          "id": "9004",
+          "title": "【金秋丰收】金汤酸菜鱼粉+煎蛋",
+          "image": "assets/img/t4.jpg",
+          "price": "13.9",
+          "retailPrice": "21",
+          "discount": "6.7折",
+          "sales": "半年销量 100+"
+        },
+        {
+          "id": "9005",
+          "title": "【双11钜惠】老友猪杂粉+鱼丸(份)",
+          "image": "assets/img/t5.jpg",
+          "price": "11.11",
+          "retailPrice": "16.5",
+          "discount": "6.8折",
+          "sales": "半年销量 100+"
+        }
+      ]
+    },
+
+    "bottomBar": {
+      "cartText": "加入购物车",
+      "buyText": "立即团购",
+      "buySubText": "折后 ¥8.9"
+    }
+  }
+}

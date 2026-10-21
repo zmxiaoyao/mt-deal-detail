@@ -1,0 +1,387 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "id": 1640463767,
+    "mtDealId": 1640463767,
+    "isVoucher": false,
+    "isSeckill": false,
+    "dealType": 0,
+    "title": "惊爆工作日午餐特惠双人餐（3选1）",
+    "shareTitle": "惊爆工作日午餐特惠双人餐（3选1）",
+    "shareDiscountTag": "8.2 折",
+    "brandname": "小菜园新徽菜",
+    "priceArea": {
+      "minusPriceAreaBar": {
+        "finalPrice": {
+          "text": "92",
+          "subText": "8.2折",
+          "color": "#FF4B10",
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        "retailPrice": {
+          "text": "113",
+          "subText": "零售价",
+          "descriptions": [
+            {
+              "title": "价格说明",
+              "content": "由商家标示，与实时标价比较，并非原价或线下门店实时销售价。该零售价可能是商品（含服务）的门市价、品牌指导价、建议零售价、历史标价中的一项。由于地区、时差的差异性和市场行情波动，零售价可能会与您购买时展示的不一致，该价格仅供您参考"
+            }
+          ],
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        "bgImage": "https://p1.meituan.net/travelcube/90f47e29b8e7ff5769d08ef392326ebe160380.png",
+        "bgImageV2": "https://p0.meituan.net/ingee/d8d61821701df09c0a79afced24e1201987208.png",
+        "promotionDetails": [
+          {
+            "text": "21",
+            "subText": "团购优惠",
+            "freeMMC": false,
+            "magicalMemberCoupon": false,
+            "timeLimitCoupon": false
+          }
+        ],
+        "soldCount": {
+          "text": "半年售 9999+",
+          "color": "#FFFFFF"
+        },
+        "traceInfo": "{\"member\":true,\"mustEat\":false,\"infos\":[]}",
+        "bgColor": "#FFFFFF",
+        "equationColor": "#111111",
+        "handPriceColor": "#FF4B10",
+        "initialPrice": {
+          "text": "113",
+          "subText": "零售价",
+          "descriptions": [
+            {
+              "title": "价格说明",
+              "content": "由商家标示，与实时标价比较，并非原价或线下门店实时销售价。该零售价可能是商品（含服务）的门市价、品牌指导价、建议零售价、历史标价中的一项。由于地区、时差的差异性和市场行情波动，零售价可能会与您购买时展示的不一致，该价格仅供您参考"
+            }
+          ],
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        "totalPromotion": {
+          "text": "21",
+          "subText": "优惠合计",
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        "bgAtmosphereInfo": {
+          "bgType": 4,
+          "textColor": "#FF4B10",
+          "bgImage": "https://p1.meituan.net/travelcube/3595e515c49324e9bf9b11a8693968544073.png",
+          "bgColor": [
+            {
+              "bgLeftColor": "#FFE6E6",
+              "bgRightColor": "#FFF1EC"
+            }
+          ]
+        },
+        "bgTagList": [
+          {
+            "text": "半年售 9999+",
+            "color": "#888888",
+            "type": 1
+          }
+        ]
+      },
+      "atmosphereType": {
+        "type": "pro_unknown",
+        "desc": "营销兜底",
+        "subType": null
+      }
+    },
+    "soldsDesc": "半年售 9999+",
+    "imageInfo": {
+      "images": [
+        {
+          "url": "https://img.meituan.net/content/d7ef506654589c7ac748ffdbf7f63032283737.jpg@1152w_648h_1e",
+          "type": 31
+        },
+        {
+          "url": "https://img.meituan.net/content/d7ef506654589c7ac748ffdbf7f63032283737.jpg@1152w_648h_1e",
+          "type": 31
+        }
+      ],
+      "tablePreview": [],
+      "sumCount": 5,
+      "imageDishes": [
+        {
+          "url": "https://img.meituan.net/dealwatera/4b8fc3a1ddd2436dff287f1806061dcf267002.jpg@1152w_648h_1e",
+          "type": 33
+        },
+        {
+          "url": "https://img.meituan.net/dealwatera/ed48662772219a527cd222ca73ef1e07280671.jpg@1152w_648h_1e",
+          "type": 33
+        },
+        {
+          "url": "https://img.meituan.net/dealwatera/c1530ccf91bcf2930420a58e5944d2b5272188.jpg@1152w_648h_1e",
+          "type": 33
+        }
+      ],
+      "imageEnvs": []
+    },
+    "menuArea": {
+      "menuInfo": {
+        "title": "团购详情",
+        "menuType": "menus",
+        "menus": [
+          {
+            "subtype": 1,
+            "content": "来小菜园，好好吃饭",
+            "strikethrough": false,
+            "images": [],
+            "choiceDesc": "3选1"
+          },
+          {
+            "subtype": 2,
+            "content": "惊爆工作日午餐套餐A",
+            "specification": "1 份",
+            "strikethrough": false,
+            "images": []
+          },
+          {
+            "subtype": 2,
+            "content": "惊爆工作日午餐套餐B",
+            "specification": "1 份",
+            "strikethrough": false,
+            "images": []
+          },
+          {
+            "subtype": 2,
+            "content": "惊爆工作日午餐套餐C",
+            "specification": "1 份",
+            "strikethrough": false,
+            "images": []
+          },
+          {
+            "subtype": 1,
+            "content": "备注",
+            "strikethrough": false,
+            "images": []
+          },
+          {
+            "subtype": 2,
+            "content": "套餐A：石板蒜蓉虾+香锅芸豆丝+龙骨炖毛圆+五常米饭*2位+餐巾纸",
+            "strikethrough": false
+          },
+          {
+            "subtype": 2,
+            "content": "套餐B：金汤肥牛+虾仁炒粉丝+香锅开心花菜+可口可乐×2+五常米饭*2位+餐巾纸",
+            "strikethrough": false
+          },
+          {
+            "subtype": 2,
+            "content": "套餐C：特色酸菜鱼+辣椒小炒肉+西红柿炒鸡蛋+五常米饭*2位+餐巾纸",
+            "strikethrough": false
+          }
+        ],
+        "foldSize": 8
+      }
+    },
+    "termArea": {
+      "terms": [
+        {
+          "title": "有效期",
+          "content": [
+            {
+              "text": "购买之后30天有效"
+            }
+          ],
+          "icon": "https://p0.meituan.net/ingee/8d924771b6dc98ebd567d9d7f245c2bb2310.png"
+        },
+        {
+          "title": "不可用日期",
+          "content": [
+            {
+              "text": "周六至周日"
+            },
+            {
+              "text": "劳动节(5.1-5.5)、端午节(6.19-6.21)、中秋节(9.25-9.27)、国庆节(10.1-10.7)"
+            }
+          ],
+          "icon": "https://p0.meituan.net/ingee/752640efecdfaf61b5690e7b2ff8cb9b2266.png"
+        },
+        {
+          "title": "使用时间",
+          "content": [
+            {
+              "text": "使用时间：10:00-16:00"
+            }
+          ],
+          "icon": "https://p0.meituan.net/ingee/aca03cf328a49c46ad38281cebe1689f2227.png"
+        },
+        {
+          "title": "使用规则",
+          "content": [
+            {
+              "text": "本单发票由商家提供，详情请咨询商家"
+            },
+            {
+              "text": "仅限堂食"
+            },
+            {
+              "text": "1. 套餐不与其他线上线下优惠同享（单品除外）。"
+            },
+            {
+              "text": "2. 套餐不与小菜园会员优惠同享。"
+            },
+            {
+              "text": "3 套餐内菜品价格以门店实际售卖价格为准。"
+            },
+            {
+              "text": "4. 因区域限制全国定价不同，且由于各地区、时间的差异性和市场行情波动，门市价、零售价等可能会与您购买时展示的不一致，该团单中折扣前价格（划线价格）和图片展示仅供参考敬请理解。"
+            },
+            {
+              "text": "5. 如部分菜品因时令或售罄等其它不可抗因素无法提供，可以和门店协商处理，感谢您的理解。"
+            },
+            {
+              "text": "6. 由于团购券适用门店较多但非全部，请消费者使用前看清适用门店。"
+            },
+            {
+              "text": "团购用户不可同时享受商家其他优惠"
+            },
+            {
+              "text": "如部分菜品因时令或售罄等其它不可抗因素无法提供，请联系商家协商处理，感谢您的理解"
+            },
+            {
+              "text": "每桌最多使用1张美团券"
+            },
+            {
+              "text": "无需预约，消费高峰期可能需要等位"
+            }
+          ],
+          "icon": "https://p0.meituan.net/ingee/45463ca6e3490ecc72a36c47c4c74c641585.png"
+        },
+        {
+          "title": "价格和销量说明",
+          "content": [
+            {
+              "text": "详情请点击查看",
+              "jumpUrl": "https://i.meituan.com/awp/hfe/block/d7a86d9bac63/134125/index.html"
+            }
+          ],
+          "icon": "https://p0.meituan.net/ingee/a44d66452cdae3221f5b3267695872c12501.png"
+        }
+      ],
+      "foldSize": 25,
+      "newTerm": false
+    },
+    "value": 113,
+    "salesTag": "8.2 折",
+    "frontPoiCates": "24,1,21533,526",
+    "imgurl": "https://img.meituan.net/w.h/content/d7ef506654589c7ac748ffdbf7f63032283737.jpg@36_0_917_556a%7C388h_640w_2e_90Q",
+    "ticketArea": {},
+    "longImageArea": {
+      "title": "菜品介绍",
+      "images": [
+        {
+          "url": "https://img.meituan.net/dealwatera/4b8fc3a1ddd2436dff287f1806061dcf267002.jpg@394h_702w_2e_90Q"
+        },
+        {
+          "url": "https://img.meituan.net/dealwatera/ed48662772219a527cd222ca73ef1e07280671.jpg@394h_702w_2e_90Q"
+        },
+        {
+          "url": "https://img.meituan.net/dealwatera/c1530ccf91bcf2930420a58e5944d2b5272188.jpg@394h_702w_2e_90Q"
+        }
+      ]
+    },
+    "recommendReasonList": [
+      {
+        "desc": "半年售 9999+",
+        "backgroundColor": "#F5F5F5",
+        "reportTypeStr": "销量"
+      }
+    ],
+    "serviceTermArea": {
+      "title": "服务摘要",
+      "tags": [
+        {
+          "reportTypeStr": "须知",
+          "text": "周一至周五可用 · 10:00-16:00",
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        {
+          "reportTypeStr": "限制",
+          "text": "每桌限用1张券",
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        {
+          "reportTypeStr": "须知",
+          "text": "随时退",
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        },
+        {
+          "reportTypeStr": "须知",
+          "text": "过期自动退",
+          "freeMMC": false,
+          "magicalMemberCoupon": false,
+          "timeLimitCoupon": false
+        }
+      ]
+    },
+    "dealBackType": "DINNER",
+    "hasToUseOrder": false,
+    "finalPrice": "92",
+    "state": 32,
+    "styleJudgeAttr": {
+      "isBuffet": false,
+      "isMustEat": false
+    },
+    "poi": {
+      "code": 0,
+      "did": 1640463767,
+      "poiid": 1012063759008500,
+      "poiIdLong": 1012063759008500,
+      "title": "小菜园新徽菜（汉光百货店）",
+      "image": "https://img.meituan.net/content/4dca356d911c0afa538d01aa4d96ca4a139025.jpg@270w_270h_1e",
+      "rating": 4.1,
+      "avgScoreRecommendText": "",
+      "avgPrice": 57,
+      "area": "北京",
+      "address": "西城区西单北大街176号华南大厦北京汉光百货八层小菜园",
+      "phone": "18761619930/010-53607327",
+      "phoneIcon": "https://p0.meituan.net/ingee/595b192e640744d32939288481bc9e9d3241.png",
+      "phoneContext": "联系商家",
+      "curCityPoiCount": 711,
+      "category": "徽菜",
+      "geoPoint": {
+        "lat": 39.909344,
+        "lng": 116.375184,
+        "coordType": "GCJ02"
+      },
+      "currentInfoTags": {
+        "status": "休息中",
+        "infoTags": [
+          "10:00-21:00"
+        ],
+        "color": "#111111"
+      },
+      "poiDetailUrl": "imeituan://www.meituan.com/mapchannel/poi/detail?mapsource=food&overseas=0&coordtype=0&poi_id=1012063759008500&latitude=39.909344&longitude=116.375184&mode=driving",
+      "newDealPageForLive": false,
+      "useVirtualNumber": false,
+      "functionSwitchMap": {},
+      "imShow": false,
+      "trainStationAddress": "",
+      "abExperimentResultMap": {
+        "ab_arena_Deal_TouBu_GaiBan": "shiyanzu9"
+      },
+      "userLogin": true,
+      "poiidEncrypt": "qB4r177879a50ebe9fe465aa24925576621dfcf47666c0e8741fb88f3072e2293edfc96d1cb6c1fae5ed6f6b6a691ce2713ffe4b2d9d843a16vxu5",
+      "poiIdLongEncrypt": "qB4r177879a50ebe9fe465aa24925576621dfcf47666c0e8741fb88f3072e2293edfc96d1cb6c1fae5ed6f6b6a691ce2713ffe4b2d9d843a16vxu5"
+    }
+  }
+}

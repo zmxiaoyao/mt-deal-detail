@@ -1,0 +1,25 @@
+name: mt_deal_app
+description: "美团商品团购详情页复刻：版式与截图一致，数据驱动，换数据即换页面。"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+# 零第三方依赖：离线也能 pub get / analyze / build
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample_deal.json
+    - assets/deal_real.json
+    - assets/deal_slim.json
+    - assets/img/
+    - assets/img/icons/

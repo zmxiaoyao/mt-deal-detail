@@ -1,0 +1,30 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/release/
+android/app/debug/
+**/*.keystore
+**/*.jks
+
+# 产物
+*.apk
+*.aab
+
+# 本机开发辅助脚本与临时浏览器配置（不参与构建）
+_dev/
+docs/shot_dbg.png
+docs/probe_*.png
+docs/icons_preview.png

@@ -1,0 +1,10 @@
+# 不依赖 flutter_lints（保持零外部依赖，离线可跑）
+analyzer:
+  errors:
+    unused_element: ignore
+    unused_field: ignore
+    unused_local_variable: ignore
+
+linter:
+  rules:
+    - avoid_print
